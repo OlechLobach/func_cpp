@@ -1,7 +1,25 @@
-#include<iostream>
+#include <iostream>
+#include <cmath>
 
-int main()
-{
+using namespace std;
 
-	return 0;
+double calculatePower(double base, int exponent) {
+    return pow(base, exponent);
+}
+
+int main() {
+    double base;
+    int exponent;
+
+    cout << "Enter the base: ";
+    cin >> base;
+
+    cout << "Enter the exponent: ";
+    cin >> exponent;
+
+    double result = calculatePower(base, exponent);
+
+    cout << "Result: " << result << endl;
+
+    return 0;
 }
