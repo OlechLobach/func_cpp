@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std;
+using namespace :: std;
 
 int calculateSumInRange(int start, int end) {
     int sum = 0;
