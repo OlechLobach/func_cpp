@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <string>
 
-using namespace std;
+using namespace :: std;
 
 bool isValidRank(const string& rank) {
     const string validRanks[] = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
