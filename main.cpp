@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-using namespace std;
+using namespace :: std;
 
 double calculatePower(double base, int exponent) {
     return pow(base, exponent);
