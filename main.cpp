@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std;
+using namespace :: std;
 
 int cube(int n) {
     return n * n * n;
