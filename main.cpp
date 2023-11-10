@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std;
+using namespace :: std;
 
 int maxNumber(int a, int b) {
     return (a > b) ? a : b;
