@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std;
+using namespace :: std;
 
 bool isPositive(int num) {
     return num > 0;
