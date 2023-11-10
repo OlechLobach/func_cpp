@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std;
+using namespace :: std;
 
 bool isPerfect(int number) {
     int sum = 1; 
